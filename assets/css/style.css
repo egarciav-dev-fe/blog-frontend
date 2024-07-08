@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 2.375rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+}
+.header__image {
+  border-radius: 50%;
+  width: 3.438rem;
+}
+.header__title {
+  font-size: 1.5rem;
+  padding-left: 1.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */
