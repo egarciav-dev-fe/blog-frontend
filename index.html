@@ -5,14 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog FrontEnd</title>
+  <!-- Google Fonts Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Hoja Estilo CSS -->
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <!-- Header -->
   <header class="header">
     <img class="header__image" src="assets/img/logos/adl.png" alt="">
-    <h1 class="header__title">Blog FrontEnd</h1>
+    <h1 class="header__title poppins-bold">Blog FrontEnd</h1>
   </header>
+  <!-- Novedades -->
+  <section class="novedades">
+    <h2 class="novedades__title">Novedades</h2>
+    <div class="novedades_post">
+      <div class="novedades__post--ultimopost">
+        <div class="novedades__post--ultimopost__head">
+          <img class="novedades__post--ultimopost__head__image" src="assets/img/posts/bootstrap.png" alt="Bootstrap">
+        </div>
+        <div class="novedades__post--ultimopost__body">
+          <p class="novedades__post--ultimopost__body__date poppins-regular">24 Noviembre, 2022</p>
+          <h3 class="novedades__post--ultimopost__body__title poppins-bold">Modifica el tema de Bootstrap con variables
+            CSS</h3>
+        </div>
+        <div class="novedades__post--ultimopost__footer">
+          <img class="novedades__post--ultimopost__footer__avatar" src="assets/img/logos/adl.png" alt="avatar">
+          <span class="novedades__post--ultimopost__footer__author poppins-medium">Desafío Latam</span>
+        </div>
+      </div>
+      <div class="novedades__post--list">
+        <img src="assets/img/logos/js.png" alt="">
+      </div>
+
+    </div>
+  </section>
 
 </body>
 

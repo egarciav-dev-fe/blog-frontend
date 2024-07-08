@@ -1,3 +1,21 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +29,60 @@
   border-bottom: 2px #CCCCCC solid;
 }
 .header__image {
-  border-radius: 50%;
+  border-radius: 0.625rem;
   width: 3.438rem;
 }
 .header__title {
   font-size: 1.5rem;
-  padding-left: 1.75rem;
+  padding-left: 1.5rem;
+}
+
+.novedades {
+  padding: 1.75rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+  border: 1px solid #000;
+}
+.novedades__title {
+  size: 1.75rem;
+  border: 1px solid #000;
+}
+.novedades__post {
+  display: flex;
+}
+.novedades__post--ultimopost__head {
+  border: 1px solid #000;
+}
+.novedades__post--ultimopost__head__image {
+  border-radius: 1.25rem;
+  width: 37.688rem;
+  height: 19.625rem;
+  object-fit: cover;
+}
+.novedades__post--ultimopost__body {
+  border: 1px solid #000;
+}
+.novedades__post--ultimopost__body__fecha {
+  font-size: 1.5rem;
+  color: #171717;
+  border: 1px solid #000;
+}
+.novedades__post--ultimopost__body__title {
+  size: 1.5rem;
+}
+.novedades__post--ultimopost__footer {
+  display: flex;
+  align-items: center;
+}
+.novedades__post--ultimopost__footer__avatar {
+  border-radius: 50%;
+  width: 3.75rem;
+}
+.novedades__post--ultimopost__footer__author {
+  size: 1.5rem;
+  padding-left: 1.5rem;
+}
+.novedades__post--list {
+  border: 1px solid #000;
 }
 
 /*# sourceMappingURL=style.css.map */

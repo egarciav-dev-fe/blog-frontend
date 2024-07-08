@@ -1,3 +1,20 @@
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -10,11 +27,62 @@
   padding: 2.375rem 6.813rem ;
   border-bottom:2px #CCCCCC solid;
   &__image{
-    border-radius: 50%;
+    border-radius: .625rem;
     width: 3.438rem;
   }
   &__title{
     font-size: 1.5rem;
-    padding-left: 1.75rem;
+    padding-left: 1.5rem;
   }
+}
+
+.novedades {
+  padding: 1.75rem 6.813rem;
+  border-bottom:2px #CCCCCC solid;
+  border: 1px solid #000;
+  &__title{
+    size: 1.75rem;
+    border: 1px solid #000;
+  }
+  &__post {
+    display: flex;
+    &--ultimopost{
+      &__head{
+        border: 1px solid #000;
+        &__image{
+          border-radius: 1.25rem;
+          width: 37.688rem;
+          height: 19.625rem;
+          object-fit: cover;
+        }
+      }
+      &__body{
+        border: 1px solid #000;
+        &__fecha{
+          font-size: 1.5rem;
+          color: #171717;
+          border: 1px solid #000;
+        }
+        &__title{
+          size: 1.5rem;
+        }
+      }
+      &__footer{
+        display: flex;
+        align-items: center;
+        &__avatar{
+          border-radius: 50%;
+          width: 3.75rem;
+        }
+        &__author{
+          size: 1.5rem;
+          padding-left: 1.5rem;
+        }
+      }
+    }
+    &--list{
+      border: 1px solid #000;
+    }
+  }
+
 }
