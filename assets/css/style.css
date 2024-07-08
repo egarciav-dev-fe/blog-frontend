@@ -41,9 +41,12 @@
   size: 1.75rem;
   padding-left: 6.875rem;
 }
+.title--popcat {
+  padding-left: 0;
+}
 
 .novedades {
-  padding: 1rem 6.813rem;
+  padding: 2rem 6.813rem;
   border-bottom: 2px #CCCCCC solid;
   display: flex;
   flex-direction: row;
@@ -64,14 +67,19 @@
   height: 19.625rem;
   object-fit: cover;
 }
-.novedades__post--ultimopost__body__fecha {
-  font-size: 1.5rem;
+.novedades__post--ultimopost__body {
+  padding-top: 0.5rem;
+}
+.novedades__post--ultimopost__body__date {
+  font-size: 1.125rem;
   color: #171717;
 }
 .novedades__post--ultimopost__body__title {
+  padding-top: 0.5rem;
   size: 1.5rem;
 }
 .novedades__post--ultimopost__footer {
+  padding-top: 0.5rem;
   display: flex;
   align-items: center;
 }
@@ -119,6 +127,68 @@
 }
 .novedades__post--aside__previous__footer__author {
   size: 1rem;
+}
+
+.popcat {
+  display: flex;
+  flex-direction: row;
+  border: #000 solid 1px;
+  padding: 2rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+  box-sizing: border-box;
+}
+.popcat__populares {
+  display: flex;
+  flex-direction: column;
+  border: #000 solid 1px;
+  text-align: start;
+  padding-right: 2rem;
+}
+.popcat__populares__nominated {
+  display: flex;
+  flex-direction: row;
+}
+.popcat__populares__nominated__cone {
+  display: flex;
+  flex-direction: column;
+}
+.popcat__populares__nominated__ctwo {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.popcat__populares__nominated__language {
+  padding-bottom: 1rem;
+}
+.popcat__populares__nominated__language__image {
+  width: 18.625rem;
+  height: 12.5rem;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  border: #000 1px solid;
+}
+.popcat__populares__nominated__language__date {
+  size: 1rem;
+}
+.popcat__populares__nominated__language__title {
+  size: 1.25rem;
+}
+.popcat__populares__nominated__language__footer {
+  display: flex;
+  align-items: center;
+}
+.popcat__populares__nominated__language__footer__avatar {
+  border-radius: 50%;
+  width: 2.5rem;
+}
+.popcat__populares__nominated__language__footer__author {
+  margin-left: 1rem;
+  size: 1rem;
+}
+.popcat__categorias {
+  display: flex;
+  flex-direction: column;
+  border: #000 solid 1px;
 }
 
 /*# sourceMappingURL=style.css.map */

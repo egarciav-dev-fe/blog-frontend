@@ -41,14 +41,16 @@
 
 .title {
   size: 1.75rem;
-
   padding-left: 6.875rem;
+  &--popcat{
+    padding-left: 0;
+  }
 }
 
-.novedades {
-  padding: 1rem 6.813rem;
-  border-bottom: 2px #CCCCCC solid;
 
+.novedades {
+  padding: 2rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
   display: flex;
   flex-direction: row;
 
@@ -74,20 +76,21 @@
       }
 
       &__body {
-
-        &__fecha {
-          font-size: 1.5rem;
+        padding-top: .5rem;
+        &__date {
+          font-size: 1.125rem;
           color: #171717;
 
         }
 
         &__title {
+          padding-top: .5rem;
           size: 1.5rem;
         }
       }
 
       &__footer {
-
+        padding-top: .5rem;
         display: flex;
         align-items: center;
 
@@ -157,5 +160,69 @@
       }
     }
   }
-
+}
+.popcat{
+  display: flex;
+  flex-direction: row;
+  border: #000 solid 1px;
+  padding: 2rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+  box-sizing: border-box;
+  
+  &__populares{
+    display: flex;
+    flex-direction: column;
+    border: #000 solid 1px;
+    text-align: start;
+    padding-right: 2rem;
+    &__nominated{
+      display: flex;
+      flex-direction: row;
+      &__cone{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      &__ctwo{
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+      }
+      &__language{
+        padding-bottom: 1rem;
+        &__image{
+          width: 18.625rem;
+          height: 12.5rem;
+          object-fit: cover;
+          border-radius: 1.25rem;
+          border: #000 1px solid;
+        }
+        &__date{
+          size: 1rem;
+        }
+        &__title{
+          size: 1.25rem;
+        }
+        &__footer{
+          display: flex;
+          
+          align-items: center;
+          &__avatar{
+            border-radius: 50%;
+            width: 2.5rem;
+          }
+          &__author{
+            margin-left: 1rem;
+            size: 1rem;
+          }
+        }
+      }
+    }
+  }
+  &__categorias{
+    display: flex;
+    flex-direction: column;
+    border: #000 solid 1px;
+    
+  }
 }
