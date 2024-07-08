@@ -37,20 +37,26 @@
   padding-left: 1.5rem;
 }
 
-.novedades {
-  padding: 1.75rem 6.813rem;
-  border-bottom: 2px #CCCCCC solid;
-  border: 1px solid #000;
-}
-.novedades__title {
+.title {
   size: 1.75rem;
-  border: 1px solid #000;
+  padding-left: 6.875rem;
+}
+
+.novedades {
+  padding: 1rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+  display: flex;
+  flex-direction: row;
 }
 .novedades__post {
   display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
-.novedades__post--ultimopost__head {
-  border: 1px solid #000;
+.novedades__post--ultimopost {
+  flex-direction: column;
+  display: flex;
+  margin-right: 3rem;
 }
 .novedades__post--ultimopost__head__image {
   border-radius: 1.25rem;
@@ -58,13 +64,9 @@
   height: 19.625rem;
   object-fit: cover;
 }
-.novedades__post--ultimopost__body {
-  border: 1px solid #000;
-}
 .novedades__post--ultimopost__body__fecha {
   font-size: 1.5rem;
   color: #171717;
-  border: 1px solid #000;
 }
 .novedades__post--ultimopost__body__title {
   size: 1.5rem;
@@ -81,8 +83,42 @@
   size: 1.5rem;
   padding-left: 1.5rem;
 }
-.novedades__post--list {
-  border: 1px solid #000;
+.novedades__post--aside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+.novedades__post--aside__previous {
+  display: flex;
+}
+.novedades__post--aside__previous__head__image {
+  border-radius: 1.25rem;
+  width: 11.813rem;
+  height: 9.063rem;
+  object-fit: cover;
+}
+.novedades__post--aside__previous__body {
+  padding-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.novedades__post--aside__previous__body__date {
+  size: 1.5rem;
+}
+.novedades__post--aside__previous__body__title {
+  size: 1.25rem;
+}
+.novedades__post--aside__previous__footer {
+  display: flex;
+  align-items: center;
+}
+.novedades__post--aside__previous__footer__avatar {
+  border-radius: 50%;
+  width: 2.5rem;
+}
+.novedades__post--aside__previous__footer__author {
+  size: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
