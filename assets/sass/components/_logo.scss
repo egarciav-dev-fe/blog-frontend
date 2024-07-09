@@ -1,0 +1,25 @@
+
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.logo__image {
+  border-radius: 0.625rem;
+  width: 3.438rem;
+}
+.logo__title {
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+}
+.logo--footer {
+  align-items: center;
+}
+
+.footer__logo--footer {
+  display: flex;
+  align-items: center;
+}
+.footer__copyright {
+  align-self: center;
+  size: 1.25rem;
+}

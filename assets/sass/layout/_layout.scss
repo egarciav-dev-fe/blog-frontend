@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 2.375rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+}
+
+.novedades {
+  padding: 2rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.novedades__post {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.novedades__post--aside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.popcat {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 6.813rem;
+  border-bottom: 2px #CCCCCC solid;
+  box-sizing: border-box;
+}
+
+.popcat__populares {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
+  justify-content: space-around;
+}
+
+.popcat__categories {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 2.375rem 6.813rem;
+  justify-content: space-between;
+}
