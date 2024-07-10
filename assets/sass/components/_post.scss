@@ -1,0 +1,75 @@
+
+.novedades__post--ultimopost {
+  flex-direction: column;
+  display: flex;
+  margin-right: 3rem;
+}
+.novedades__post--ultimopost__head__image {
+  border-radius: 1.25rem;
+  width: 37.688rem;
+  height: 19.625rem;
+  object-fit: cover;
+}
+.novedades__post--ultimopost__body {
+  padding-top: 0.5rem;
+}
+.novedades__post--ultimopost__body__date {
+  font-size: 1.125rem;
+  color: #171717;
+}
+.novedades__post--ultimopost__body__title {
+  padding-top: 0.5rem;
+  size: 1.5rem;
+}
+.novedades__post--ultimopost__body__title a{
+  text-decoration: none;
+  color: $color-black;
+}
+.novedades__post--ultimopost__footer {
+  padding-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.novedades__post--ultimopost__footer__avatar {
+  border-radius: 50%;
+  width: 3.75rem;
+}
+.novedades__post--ultimopost__footer__author {
+  size: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.novedades__post--aside__previous {
+  display: flex;
+}
+.novedades__post--aside__previous__head__image {
+  border-radius: 1.25rem;
+  width: 11.813rem;
+  height: 9.063rem;
+  object-fit: cover;
+}
+.novedades__post--aside__previous__body {
+  padding-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.novedades__post--aside__previous__body__date {
+  size: 1.5rem;
+}
+.novedades__post--aside__previous__body__title {
+  size: 1.25rem;
+}
+.novedades__post--aside__previous__footer {
+  display: flex;
+  align-items: center;
+}
+.novedades__post--aside__previous__footer__avatar {
+  display: flex;
+  border-radius: 50%;
+  width: 2.5rem;
+}
+.novedades__post--aside__previous__footer__author {
+  size: 1rem;
+  padding-left: 1rem;
+}

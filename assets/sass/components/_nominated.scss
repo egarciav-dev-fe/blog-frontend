@@ -1,0 +1,41 @@
+.popcat__populares__nominated {
+  display: flex;
+  flex-direction: row;
+}
+.popcat__populares__nominated__cone {
+  display: flex;
+  flex-direction: column;
+}
+.popcat__populares__nominated__ctwo {
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.popcat__populares__nominated__language {
+  padding-bottom: 1rem;
+}
+.popcat__populares__nominated__language__image {
+  width: 18.625rem;
+  height: 12.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1.25rem;
+}
+.popcat__populares__nominated__language__date {
+  size: 1rem;
+}
+.popcat__populares__nominated__language__title {
+  size: 1.25rem;
+}
+.popcat__populares__nominated__language__footer {
+  display: flex;
+  align-items: center;
+}
+.popcat__populares__nominated__language__footer__avatar {
+  border-radius: 50%;
+  width: 2.5rem;
+}
+.popcat__populares__nominated__language__footer__author {
+  margin-left: 1rem;
+  size: 1rem;
+}

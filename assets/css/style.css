@@ -73,7 +73,8 @@
   border-radius: 1.25rem;
   width: 37.688rem;
   height: 19.625rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .novedades__post--ultimopost__body {
   padding-top: 0.5rem;
@@ -111,7 +112,8 @@
   border-radius: 1.25rem;
   width: 11.813rem;
   height: 9.063rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .novedades__post--aside__previous__body {
   padding-left: 2.5rem;
@@ -169,7 +171,8 @@
 .popcat__populares__nominated__language__image {
   width: 18.625rem;
   height: 12.5rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 1.25rem;
 }
 .popcat__populares__nominated__language__date {
@@ -205,7 +208,8 @@
 .popcat__categories__list__image {
   width: 5.313rem;
   height: 5.7rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   padding-left: 0.75rem;
 }
 .popcat__categories__list__name {
@@ -284,6 +288,4 @@
 .footer__copyright {
   align-self: center;
   size: 1.25rem;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

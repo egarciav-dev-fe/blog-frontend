@@ -1,0 +1,10 @@
+.relacionados{
+  &__cards{
+    &__card{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+    }
+  }
+}

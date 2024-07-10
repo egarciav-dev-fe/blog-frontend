@@ -1,0 +1,29 @@
+.suscripcion__formulario{
+  background-color: $color-bg-sub;
+  color: $color-sub;
+  padding: 3rem 5rem;
+  
+}
+
+.suscripcion__formulario__datos{
+  display: flex;  
+}
+.suscripcion__formulario__datos__in{
+  display: flex;
+  height: 2rem;
+  width: 18rem;
+  border-radius: .5rem;
+}
+
+.btn{
+  display: flex;
+  padding-left: 1rem;
+}
+.btn-sub{
+  border-radius: .5rem;
+  padding: .5rem 2rem;
+}
+
+#sub-link{
+  text-decoration: none;
+}
