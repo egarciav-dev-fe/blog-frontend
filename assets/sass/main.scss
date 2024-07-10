@@ -2,7 +2,8 @@
 
 // 1. Abstracts
 @import
-  'abstracts/reset';
+  'abstracts/reset',
+  'abstracts/variables';
 
 // 2. Vendors
 
@@ -22,7 +23,8 @@
   'components/post',
   'components/title',
   'components/categorie',
-  'components/nominated';
+  'components/nominated',
+  'components/subform';
 
 // 6. Pages
 

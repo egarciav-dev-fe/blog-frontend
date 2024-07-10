@@ -61,9 +61,11 @@
   align-items: center;
 }
 .novedades__post--aside__previous__footer__avatar {
+  display: flex;
   border-radius: 50%;
   width: 2.5rem;
 }
 .novedades__post--aside__previous__footer__author {
   size: 1rem;
+  padding-left: 1rem;
 }
