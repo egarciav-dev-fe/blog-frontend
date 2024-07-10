@@ -181,6 +181,11 @@
   size: 1.5rem;
 }
 
+.novedades__post--ultimopost__body__title a {
+  text-decoration: none;
+  color: #000000;
+}
+
 .novedades__post--ultimopost__footer {
   padding-top: 0.5rem;
   display: flex;
