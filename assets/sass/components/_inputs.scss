@@ -1,0 +1,30 @@
+.registro__form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+  border: solid $separator 1px;
+  border-radius: 5px;
+}
+
+.btn-sub{
+  width: 100%;
+  justify-content: center;
+  background-color: $color-bg-sub;
+  color: $color-sub;
+  margin-bottom: 10px;
+}
+.btn-sub-google{
+  width: 100%;
+  justify-content: center;
+  background-color: $color-sub;
+  color: $color-black;
+  border: solid $separator 1px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  align-items: center;
+}
+.btn-sub-google img{
+  width:2rem;
+  padding-right: .75rem;
+}
