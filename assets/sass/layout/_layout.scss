@@ -75,11 +75,18 @@
 }
 .post-bootstrap{
   padding: 2rem 6.813rem;
-  border-bottom: 2px $separator solid;
   display: flex;
   flex-direction: column;
-  &__article{
-    width: 100%;
+}
+.relacionados{
+  display: flex;
+  flex-direction: column;
+  
+  padding: 2.375rem 6.813rem;
+  border-bottom: 2px $separator solid;
+  &__cards{
+    display: flex;
+    flex-direction: row;
   }
 }
 .footer {
